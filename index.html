@@ -15,7 +15,7 @@
 <body>
     <header>
           <!-- navbar starts here -->
-        <nav class="navbar navbar-expand-lg bg-white">
+        <nav class="navbar navbar-expand-lg bg-white fixed-top">
             <div class="container-fluid">
               <a class="navbar-brand" href="#"><h1 class="text-info">Abacus Convention Center</h1>
               </a>
@@ -95,14 +95,14 @@
     <main>
         <!-- every moment starts here  -->
         <section class="container my-5">
-            <div class="d-flex align-items-center justify-content-between">
+            <div class="d-flex flex-lg-row flex-md-row flex-sm-row flex-column align-items-center justify-content-between">
                 <div class="w-50 p-3">
                     <img class="img-fluid" src="/convention-center 7.48.57 PM/images/wedding.png" alt="">
                 </div>
                     
                 <div class="w-50 p-3">
                     <h2 class="fs-1">Every Momnet is precious</h2>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis a praesentium, culpa, accusantium veritatis laborum nihil aspernatur vitae enim nam saepe eligendi temporibus necessitatibus ab.</p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis a praesentium, culpa, accusantium veritatis laborum nihil  necessitatibus ab.</p>
                     <button class="btn btn-info bg-blue text-light">Explore our album <img src="/convention-center 7.48.57 PM/icons/arrow-forward 1.svg" alt="">
                     </button>
                 </div>
@@ -114,44 +114,18 @@
         <section class="container my-5">
             <div class="d-flex flex-column align-items-center">
                 <h1>our packages</h1>
-                <div class="d-flex justify-content-around">
-                    <div class="card m-2" style="width: 15rem;">
-                        <div class="card-body">
-                          <h3 class="card-title">300$</h3>
-                          <h4 >Bussiness fair</h4>
-                          <p class="card-text">For most businesses event like book fair, craft fair.</p>
-                          <p>limited space access</p>
-                          <p>limited space access</p>
-                          <p>limited space access</p>
-                          <p>limited space access</p>
-                          <p>limited space access</p>
-                          <a href="#" class="btn btn-primary">Go somewhere</a>
-                        </div>
-                      </div>
-                    <div class="card m-2" style="width: 15rem;">
-                        <div class="card-body">
-                          <h3 class="card-title">300$</h3>
-                          <h4 >Bussiness fair</h4>
-                          <p class="card-text">For most businesses event like book fair, craft fair.</p>
-                          <p>limited space access</p>
-                          <p>limited space access</p>
-                          <p>limited space access</p>
-                          <p>limited space access</p>
-                          <p>limited space access</p>
-                          <a href="#" class="btn btn-primary">Go somewhere</a>
-                        </div>
-                      </div>
-                    <div class="card m-2 shadow-lg bg-body rounded" style="width: 15rem;">
-                        <div class="card-body bg-blue text-light d-flex flex-column align-items-center p-4">
+                <div class="d-flex flex-lg-row flex-md-row flex-column justify-content-around">
+                    <div class="card m-3  bg-body rounded" >
+                        <div class="card-body d-flex flex-column align-items-center p-2">
                             <div>
                                 <h3 class="card-title">800$</h3>
                                 <h4 >Wedding Plus</h4>
                                 <p class="card-text">For most businesses event like book fair, craft fair.</p>
-                                <p>limited space access</p>
-                                <p>dedicated team</p>
-                                <p>Buffet food</p>
-                                <p>premium decoration</p>
-                                <p>pay as plan</p>
+                                <p><i class="fa-solid fa-circle-check"></i> limited space access</p>
+                                <p><i class="fa-solid fa-circle-check"></i> dedicated team</p>
+                                <p><i class="fa-solid fa-circle-check"></i> Buffet food</p>
+                                <p><i class="fa-solid fa-circle-check"></i> premium decoration</p>
+                                <p><i class="fa-solid fa-circle-check"></i> pay as plan</p>
                             </div>
                           
                           <div>
@@ -162,19 +136,70 @@
                          
                         </div>
                       </div>
-                    <div class="card m-2" style="width: 15rem;">
-                        <div class="card-body">
-                          <h3 class="card-title">300$</h3>
-                          <h4 >Bussiness fair</h4>
-                          <p class="card-text">For most businesses event like book fair, craft fair.</p>
-                          <p>limited space access</p>
-                          <p>limited space access</p>
-                          <p>limited space access</p>
-                          <p>limited space access</p>
-                          <p>limited space access</p>
-                          <a href="#" class="btn btn-primary">Go somewhere</a>
+                    <div class="card m-3 bg-body rounded">
+                        <div class="card-body d-flex flex-column align-items-center p-2">
+                            <div>
+                                <h3 class="card-title">800$</h3>
+                                <h4 >Wedding Plus</h4>
+                                <p class="card-text">For most businesses event like book fair, craft fair.</p>
+                                <p><i class="fa-solid fa-circle-check"></i> limited space access</p>
+                                <p><i class="fa-solid fa-circle-check"></i> dedicated team</p>
+                                <p><i class="fa-solid fa-circle-check"></i> Buffet food</p>
+                                <p><i class="fa-solid fa-circle-check"></i> premium decoration</p>
+                                <p><i class="fa-solid fa-circle-check"></i> pay as plan</p>
+                            </div>
+                          
+                          <div>
+                            <a href="#" class="btn btn-light rounded-pill text-blue fw-bold px-5 ">
+                                Choose Plan
+                              </a>
+                          </div>
+                         
                         </div>
                       </div>
+                    <div class="card m-2 shadow-lg bg-body rounded" >
+                        <div class="card-body bg-blue text-light d-flex flex-column rounded align-items-center p-2">
+                            <div>
+                                <h3 class="card-title">800$</h3>
+                                <h4 >Wedding Plus</h4>
+                                <p class="card-text">For most businesses event like book fair, craft fair.</p>
+                                <p><i class="fa-solid fa-circle-check"></i> limited space access</p>
+                                <p><i class="fa-solid fa-circle-check"></i> dedicated team</p>
+                                <p><i class="fa-solid fa-circle-check"></i> Buffet food</p>
+                                <p><i class="fa-solid fa-circle-check"></i> premium decoration</p>
+                                <p><i class="fa-solid fa-circle-check"></i> pay as plan</p>
+                            </div>
+                          
+                          <div>
+                            <a href="#" class="btn btn-light rounded-pill text-blue fw-bold px-5 ">
+                                Choose Plan
+                              </a>
+                          </div>
+                         
+                        </div>
+                      </div>
+                    <div class="card m-3 bg-body rounded" >
+                        <div class="card-body d-flex flex-column align-items-center p-2">
+                            <div>
+                                <h3 class="card-title">800$</h3>
+                                <h4 >Wedding Plus</h4>
+                                <p class="card-text">For most businesses event like book fair, craft fair.</p>
+                                <p><i class="fa-solid fa-circle-check"></i> limited space access</p>
+                                <p><i class="fa-solid fa-circle-check"></i> dedicated team</p>
+                                <p><i class="fa-solid fa-circle-check"></i> Buffet food</p>
+                                <p><i class="fa-solid fa-circle-check"></i> premium decoration</p>
+                                <p><i class="fa-solid fa-circle-check"></i> pay as plan</p>
+                            </div>
+                          
+                          <div>
+                            <a href="#" class="btn btn-light rounded-pill text-blue fw-bold px-5 ">
+                                Choose Plan
+                              </a>
+                          </div>
+                         
+                        </div>
+                      </div>
+                  
                     
                 </div>
             </div>
@@ -184,21 +209,21 @@
         <section class="container my-5">
             <div class="d-flex flex-column align-items-center">
                 <h1>Happy clients say</h1>
-                <div class="d-flex">
+                <div class="d-flex flex-lg-row flex-column">
                     <div class="border m-3 shadow-lg rounded d-flex flex-column align-items-center">
-                        <p class="text-center">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quam, exercitationem facere? Repudiandae, soluta. Illo libero at temporibus velit voluptate culpa!</p>
+                        <p class="text-center p-3">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quam, exercitationem facere? Repudiandae, soluta. Illo libero at temporibus velit voluptate culpa!</p>
                         <img src="/convention-center 7.48.57 PM/images/person 1.png" alt="">
                         <h3>Regina Mile</h3>
                         <p>banker</p>
                     </div>
                     <div class="border m-3 shadow-lg rounded d-flex flex-column align-items-center" style="max-width:fit-content">
-                        <p class="text-center">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ut sint voluptates quaerat, laudantium exercitationem culpa nesciunt obcaecati molestiae necessitatibus vel?</p>
+                        <p class="text-center p-3">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ut sint voluptates quaerat, laudantium exercitationem culpa nesciunt obcaecati molestiae necessitatibus vel?</p>
                         <img src="/convention-center 7.48.57 PM/images/person 2.png" alt="">
                         <h3>Regina Mile</h3>
                         <p>banker</p>
                     </div>
                     <div class="border m-3 shadow-lg rounded d-flex flex-column align-items-center">
-                        <p class="text-center">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Possimus minus deleniti atque facere doloribus qui voluptate, omnis architecto perferendis quae.</p>
+                        <p class="text-center p-3">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Possimus minus deleniti atque facere doloribus qui voluptate, omnis architecto perferendis quae.</p>
                         <img src="/convention-center 7.48.57 PM/images/person 3.png" alt="">
                         <h3>Regina Mile</h3>
                         <p>banker</p>
@@ -209,8 +234,9 @@
 
         <!-- happy clients ends here  -->
         <!-- frequently asked questions start  -->
-        <section class="container">
-            <div class="d-flex">
+        <section class="container d-flex flex-column align-items-center">
+            <h2>Frequently Asked Questions</h2>
+            <div class="d-flex flex-lg-row flex-md-row flex-sm-row flex-column">
                 <div class="w-50">
                     <div class="accordion accordion-flush" id="accordionFlushExample">
                         <div class="accordion-item">
@@ -270,11 +296,34 @@
     </main>
 
     <footer class="bg-dark mt-5 pb-0">
-        <p class="text-white">© 2020 bike. All rights reserved</p>
-        <div>
-            <h3>Get the app</h3>
-
+        <div class="d-flex flex-lg-row flex-md-row flex-column  justify-content-between align-items-center">
+            <p class="text-white px-5">© 2020 bike. All rights reserved</p>
+            <div class="px-5 p-3">
+                <h5 class="text-light px-2">Get the app </h5>
+                
+                    <a class="d-flex border m-2 px-4 text-decoration-none rounded" href="#">
+                        <i class="fa-brands fa-apple"></i>
+                        <div class="text-light">
+                            <p class="text-nowrap">Download on</p>
+                            <h6>App Store</h6>
+                        </div>
+                    </a>
+                    <a class="d-flex border m-2 p-1 text-decoration-none rounded" href="#">
+                        <i class="fa-brands fa-google-play"></i>
+                        <div class="text-light">
+                            <p>Get it on</p>
+                            <h6>Google Play</h6>
+                        </div>
+                    </a>
+    
+                
+                <div>
+    
+                </div>
+    
+            </div>
         </div>
+        
     </footer>
 
 
